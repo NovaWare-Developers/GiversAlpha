@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "APDC2021"
