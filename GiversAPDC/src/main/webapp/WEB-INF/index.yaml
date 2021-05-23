@@ -1,0 +1,39 @@
+
+indexes:
+
+- kind: Comment
+  ancestor: yes
+  properties:
+  - name: date
+  
+- kind: Comment
+  ancestor: yes
+  properties:
+  - name: date
+    direction: desc
+  
+- kind: Event
+  properties:
+  - name: interests
+  - name: date_end
+  
+- kind: Event
+  properties:
+  - name: interests
+  - name: date_start
+  
+- kind: Event
+  properties:
+  - name: interests
+  - name: date_start
+  - name: date_end
+  
+- kind: Event
+  properties:
+  - name: points_rewarded
+  - name: date_end
+  
+- kind: Event
+  properties:
+  - name: institution
+  - name: date_end
